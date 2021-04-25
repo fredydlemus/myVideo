@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+        <div class="header__leftsection">
+            <img class="header__img" src="images/multimedia.svg" alt="logo">
+            <p>myVideo</p>
+        </div>
+        </a>
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="images/user.svg" alt="user">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li> <a href="login.html">Cuenta</a> </li>
+                <li> <a href="/">Cerrar Sesión</a> </li>
+            </ul>
+        </div>
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia sesión</h2>
+            <form class="login__container--form" action="">
+                <input class="login-input" type="text" placeholder="Correo">
+                <input class="login-input" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--rememberme">
+                    <label class="login-label">
+                        <input type="checkbox" name="" id="cbox1" value="checkbox">
+                        <p>Recuerdame</p>
+                    </label>
+                    
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--socialmedia">
+                <div><img src="images/google.svg" alt="Google">Inicia sesión con Google    </div>
+                <div><img src="images/twitter.svg" alt="Twitter">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="register.html">Crea una</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Terminos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
