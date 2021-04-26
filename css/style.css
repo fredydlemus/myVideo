@@ -11,9 +11,9 @@ body {
   height: auto;
 }
 
-body h2 {
+.categories__title {
   color: white;
-  margin-left: 50px;
+  margin-left: 30px;
   font-size: 20px;
 }
 
@@ -135,7 +135,7 @@ ul:hover {
 
 .carousel {
   padding-left: 30px;
-  width: 97%;
+  width: calc(100% - 30px);
   position: relative;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
