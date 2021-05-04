@@ -92,7 +92,7 @@ ul:hover {
   margin: auto 0;
   width: 50px;
   height: 50px;
-  background-image: url("/assets/images/return.svg");
+  background-image: url("assets/images/return.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
