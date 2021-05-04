@@ -49,32 +49,54 @@ body {
   margin-right: 30px;
 }
 
-.header__menu ul {
-  display: none;
+#side_menu {
   list-style: none;
-  padding: 0px;
-  position: absolute;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: -200px;
   width: 100px;
+  height: 100vh;
   text-align: right;
   margin: 0 0 0 -14px;
+  background-color: white;
+  transition: right 0.3s;
+  z-index: 1;
 }
 
-.header__menu:hover ul,
+#side_menu.show {
+  right: 0;
+}
+
+/* .header__menu:hover ul,
 ul:hover {
   display: block;
-}
+} */
 
-.header__menu li {
+#side_menu li {
   margin: 10px 0px;
 }
 
-.header__menu li a {
-  color: white;
+#side_menu li a {
+  color: #0093e9;
   text-decoration: none;
 }
 
-.header__menu li a:hover {
+#side_menu li a:hover {
   text-decoration: underline;
+}
+
+#side_menu button {
+  border: none;
+  background-color: white;
+  margin: auto 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("/assets/images/return.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 25px;
 }
 
 .header__menu--profile {

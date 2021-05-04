@@ -10,22 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
-<body>
+<body >
     <header class="header">
         <a href="index.html">
             <div class="header__leftsection">
-                <img class="header__img" src="images/multimedia.svg" alt="logo">
+                <img class="header__img" src="assets/images/multimedia.svg" alt="logo">
                 <p>myVideo</p>
             </div>
         </a>
         <div class="header__menu" aria-haspopup="true">
-            <div class="header__menu--profile">
-                <img src="images/user.svg" alt="user">
+            <div class="header__menu--profile" onclick="side(1)">
+                <img src="/assets/images/user.svg" alt="user">
                 <p>Perfil</p>
             </div>
-            <ul>
+            <ul id="side_menu">
                 <li> <a href="login.html">Cuenta</a> </li>
                 <li> <a href="error.html">Cerrar Sesión</a> </li>
+                <li><button  onclick="side()"></button></li>
             </ul>
         </div>
     </header>
@@ -44,8 +45,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -58,8 +59,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
 
                     <p class="carousel-item__details--title">Título descriptivo</p>
@@ -73,8 +74,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -87,8 +88,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -101,8 +102,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -115,8 +116,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -129,8 +130,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -143,8 +144,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -164,8 +165,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -178,8 +179,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
 
                     <p class="carousel-item__details--title">Título descriptivo</p>
@@ -193,8 +194,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -207,8 +208,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -221,8 +222,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -235,8 +236,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -249,8 +250,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -263,8 +264,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -286,8 +287,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -300,8 +301,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
 
                     <p class="carousel-item__details--title">Título descriptivo</p>
@@ -315,8 +316,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -329,8 +330,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -343,8 +344,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -357,8 +358,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -371,8 +372,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -385,8 +386,8 @@
                 <div 
                 class="carousel-item__details">
                     <div>
-                        <img src="images/play.svg" alt="play">
-                        <img src="images/plus.svg" alt="plus">
+                        <img src="assets/images/play.svg" alt="play">
+                        <img src="assets/images/plus.svg" alt="plus">
                     </div>
                     <p class="carousel-item__details--title">Título descriptivo</p>
                     <p class="carousel-item__details--subtitle">2019 16+ 114min</p>
@@ -402,6 +403,8 @@
         <a href="/">Declaración de privacidad</a>
         <a href="/">Centro de ayuda</a>
     </footer>
+
+    <script src="./assets/index.js"></script>
     
 </body>
 </html>

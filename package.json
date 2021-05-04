@@ -1,0 +1,19 @@
+{
+  "name": "myvideopage",
+  "version": "1.0.0",
+  "description": "This is a web app to watch videos",
+  "main": "assets/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredyflemus/myVideo.git"
+  },
+  "author": "fredyflemus <contacto@fredyflemus>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredyflemus/myVideo/issues"
+  },
+  "homepage": "https://github.com/fredyflemus/myVideo#readme"
+}
